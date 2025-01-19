@@ -83,7 +83,7 @@ function Strategicguidence() {
           </ul>
 
           <button className="bg-white text-black py-2 px-10 sm:px-12 md:px-16 font-bold rounded-md mt-4 hover:bg-gray-200 transition duration-300">
-            Apply
+            Apply1
           </button>
         </div>
       </div>
