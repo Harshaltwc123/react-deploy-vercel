@@ -5,6 +5,7 @@ import Faq from "./component/Faq";
 import Flipcard from "./component/Flipcard";
 import Footer from "./component/Footer";
 import Guide from "./component/Guide";
+import Home1 from "./component/Home1";
 
 
 
@@ -17,6 +18,8 @@ function App() {
 <Flipcard/>
 <Footer/>
 <Guide/>
+<Home1/>
+
  </>
  
   );
