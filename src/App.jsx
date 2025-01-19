@@ -4,6 +4,7 @@ import Ecosystemdevelopment from "./component/Ecosystemdevelopment";
 import Faq from "./component/Faq";
 import Flipcard from "./component/Flipcard";
 import Footer from "./component/Footer";
+import Guide from "./component/Guide";
 
 
 
@@ -15,6 +16,7 @@ function App() {
  <Faq/>
 <Flipcard/>
 <Footer/>
+<Guide/>
  </>
  
   );
