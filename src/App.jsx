@@ -8,6 +8,8 @@ import Guide from "./component/Guide";
 import Home1 from "./component/Home1";
 import Implements from "./component/Implements";
 import Investmentopportunity from "./component/Investmentopportunity";
+import Landing from "./component/Landing";
+import Scrollingcard from "./component/Scrollingcard";
 
 
 
@@ -23,6 +25,8 @@ function App() {
 <Home1/>
 <Implements/>
 <Investmentopportunity/>
+<Landing/>
+<Scrollingcard/>
  </>
  
   );
