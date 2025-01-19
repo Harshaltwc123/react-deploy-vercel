@@ -1,18 +1,23 @@
-import React from 'react'
-import Brands from './component/Brands'
-import Ecosystemdevelopment from './component/Ecosystemdevelopment'
-import Faq from './component/Faq'
-import Feedbackcard from './component/Feedbackcard'
+import React from "react";
+import Brands from "./component/Brands";
+import Faq from "./component/Faq";
+import Ecosystemdevelopment from "./component/Ecosystemdevelopment";
+import Feedbackcard from "./component/Feedbackcard";
+import Flipcard from "./component/Flipcard";
+
+
 
 function App() {
   return (
-    <div>
-      <Brands/>
-      <Ecosystemdevelopment/>
-      <Faq/>
-      <Feedbackcard/>
-    </div>
-  )
+   
+ <div>
+  <Brands/>
+  <Faq/>
+  <Ecosystemdevelopment/>
+  <Feedbackcard/>
+  <Flipcard/>
+ </div>
+  );
 }
 
-export default App
+export default App;
