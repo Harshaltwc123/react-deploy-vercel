@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./component/Card";
+import Cards from "./component/Cards";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Navbar from "./component/Navbar";
 // import Home from "./pages/Home";
@@ -28,7 +29,7 @@ function App() {
     //   <Footer />
     // </Router>
  <>
- <Card/>
+ <Cards/>
  </>
   );
 }
