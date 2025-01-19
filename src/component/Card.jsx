@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import "../Header.css";
 import "../index.css";
@@ -120,7 +119,7 @@ function Card() {
                     .map((review) => (
                       <div
                         key={review.id}
-                        className="max-w-lg bg-white shadow-lg rounded-lg p-4 md:p-6 w-full"
+                        className="bg-white shadow-lg rounded-lg p-4 md:p-6 w-full max-w-md mx-auto"
                       >
                         {/* Header Section */}
                         <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4">
@@ -164,12 +163,14 @@ function Card() {
                         </div>
 
                         {/* Verified Purchase */}
-                        <ul className="flex gap-1 bg-green-100 w-fit px-3 md:px-5 mt-6 md:mt-20 text-sm md:text-base">
-                          <li className="pt-1">
-                            <img src={Icon1} alt="Verified Icon" />
-                          </li>
-                          <li>Verified purchase</li>
-                        </ul>
+                        <div className="flex items-center bg-green-100 w-fit px-3 md:px-5 mt-6 md:mt-20 text-sm md:text-base rounded-md">
+                          <img
+                            src={Icon1}
+                            alt="Verified Icon"
+                            className="h-5 w-5"
+                          />
+                          <span className="ml-2">Verified purchase</span>
+                        </div>
 
                         {/* Review Text */}
                         <p className="mt-4 text-gray-600 text-sm md:text-xl">
