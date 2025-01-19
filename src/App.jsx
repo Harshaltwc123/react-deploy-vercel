@@ -1,5 +1,5 @@
 import React from "react";
-import Ecosystemdevelopment from "./component/Ecosystemdevelopment";
+import Investmentopportunity from "./component/Investmentopportunity";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Navbar from "./component/Navbar";
 // import Home from "./pages/Home";
@@ -28,7 +28,7 @@ function App() {
     //   <Footer />
     // </Router>
  <div>
-  <Ecosystemdevelopment/>
+  <Investmentopportunity/>
  </div>
   );
 }
