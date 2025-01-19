@@ -1,5 +1,5 @@
 import React from "react";
-import Feedbackcard from "./component/Feedbackcard";
+import Feedback from "./component/Feedback";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Navbar from "./component/Navbar";
 // import Home from "./pages/Home";
@@ -28,7 +28,7 @@ function App() {
     //   <Footer />
     // </Router>
     <>
-    <Feedbackcard/>
+    <Feedback/>
     </>
  
   );

@@ -75,7 +75,7 @@ const reviews = [
   },
 ];
 
-function FeedbackCard() {
+function Feedback() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -193,4 +193,4 @@ function FeedbackCard() {
   );
 }
 
-export default FeedbackCard;
+export default Feedback;
