@@ -11,28 +11,25 @@ import Investmentopportunity from "./component/Investmentopportunity";
 import Landing from "./component/Landing";
 import Scrollingcard from "./component/Scrollingcard";
 import Unleash from "./component/Unleash";
-
-
-
+import Feedbackcard from "./component/Feedbackcard";
 
 function App() {
   return (
- <>
- <Brands/>
- <Ecosystemdevelopment/>
- <Faq/>
-<Flipcard/>
-<Footer/>
-<Guide/>
-<Home1/>
-<Implements/>
-<Investmentopportunity/>
-<Landing/>
-<Scrollingcard/>
-<Unleash/>
-
- </>
- 
+    <>
+      <Brands />
+      <Ecosystemdevelopment />
+      <Faq />
+      <Flipcard />
+      <Footer />
+      <Guide />
+      <Home1 />
+      <Implements />
+      <Investmentopportunity />
+      <Landing />
+      <Scrollingcard />
+      <Unleash />
+      <Feedbackcard/>
+    </>
   );
 }
 
