@@ -14,13 +14,11 @@ function Home() {
   return (
     <div className='mt-10'>
       <Flipcard/>
-      {/* <Scrollingcard/> */}
       <Brands />
       <Home1 />
       <Guide />
       <Unleash />
       <Implements />
-      <FeedbackCard />
       <Faq />
       <Landing />
     </div>
