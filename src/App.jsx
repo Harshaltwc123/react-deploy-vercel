@@ -1,6 +1,7 @@
 import React from "react";
 import Brands from "./component/Brands";
 import Faq from "./component/Faq";
+import Ecosystemdevelopment from "./component/Ecosystemdevelopment";
 
 
 
@@ -10,7 +11,7 @@ function App() {
  <div>
   <Brands/>
   <Faq/>
-  
+  <Ecosystemdevelopment/>
  </div>
   );
 }
