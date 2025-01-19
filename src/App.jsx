@@ -1,45 +1,32 @@
 import React from "react";
-import Brands from "./component/Brands";
-import Faq from "./component/Faq";
-import Ecosystemdevelopment from "./component/Ecosystemdevelopment";
-import Feedbackcard from "./component/Feedbackcard";
-import Flipcard from "./component/Flipcard";
-import Footer from "./component/Footer";
-import Guide from "./component/Guide";
-import Home1 from "./component/Home1";
-import Implements from "./component/Implements";
-import Investmentopportunity from "./component/Investmentopportunity";
-import Landing from "./component/Landing";
-import Scrollingcard from "./component/Scrollingcard";
-import Strategicguidence from "./component/Strategicguidence";
-import Technologyenablement from "./component/Technologyenablement";
-import Unleash from "./component/Unleash";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./component/Navbar";
-
+import Home from "./pages/Home";
+import WhatWeOffer from "./pages/WhatWeOffer";
+import Events from "./pages/Events";
+import HubnexLabs from "./pages/HubnexLabs";
+import GetInTouch from "./pages/GetInTouch";
+import AboutUs from "./pages/AboutUs";
+import ApplyNow from "./pages/ApplyNow";
+import Footer from "./component/Footer";
 
 
 function App() {
   return (
-   
- <div>
-
-  <Brands/>
-  <Faq/>
-  <Ecosystemdevelopment/>
-  <Feedbackcard/>
-  <Flipcard/>
-  <Footer/>
-  <Guide/>
-  <Home1/>
-  <Implements/>
-  <Investmentopportunity/>
-  <Landing/>
-  <Scrollingcard/>
-  <Strategicguidence/>
-  <Technologyenablement/>
-  <Unleash/>
-
- </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/what-we-offer" element={<WhatWeOffer />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/hubnexlabs" element={<HubnexLabs />} />
+        <Route path="/get-in-touch" element={<GetInTouch />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/apply-now" element={<ApplyNow />} />
+      </Routes>
+      <Footer />
+    </Router>
+ 
   );
 }
 
