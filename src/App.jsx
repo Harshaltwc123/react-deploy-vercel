@@ -1,5 +1,6 @@
 import React from "react";
 import Strategic from "./component/Strategic";
+import Technology from "./component/Technology";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import Navbar from "./component/Navbar";
 // import Home from "./pages/Home";
@@ -28,7 +29,7 @@ function App() {
     //   <Footer />
     // </Router>
     <div>
-      <Strategic/>
+      <Technology/>
     </div>
  
   );
