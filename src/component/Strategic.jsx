@@ -57,7 +57,7 @@ function Strategic() {
         </div>
       </div>
 
-      <div className="flex justify-evenly flex-wrap gap-10 my-20">
+      
         {/* card3 */}
         <div className="flex flex-col justify-center text-center items-center gap-4 bg-white max-w-80 rounded-md px-4 py-12 border border-gray-200 shadow-xl">
           <img src={img4} alt="" className="rounded h-24 w-28" />
@@ -70,20 +70,6 @@ function Strategic() {
             support their growth and success.
           </p>
         </div>
-
-        {/* card4 */}
-        <div className="flex flex-col justify-center text-center items-center gap-4 bg-white max-w-80 rounded-md px-4 py-12 border border-gray-200 shadow-xl">
-          <img src={img5} alt="" className="rounded h-24 w-28" />
-          <h1 className="text-xl font-semibold">
-            GIndustry Associations and Agencies
-          </h1>
-          <p className="text-[16px] text-center">
-            Hubnex Invest collaborates with industry associations and government
-            agencies to advocate for policies supporting startup growth and
-            innovation
-          </p>
-        </div>
-      </div>
 
       <div className="relative max-h-full">
         <img src={banner} alt="" className="w-full" />
