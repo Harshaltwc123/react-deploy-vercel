@@ -18,11 +18,10 @@ function Strategic() {
         />
         <div className="absolute bottom-0 left-0 right-0 bg-white/50 backdrop-blur-md py-6 sm:py-8 md:py-10 flex flex-col justify-center items-center gap-2 text-center">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-            Ecosystem Development
+            Strategic Guidance
           </h1>
           <p className="text-sm sm:text-base md:text-lg">
-            Create a thriving ecosystem that supports sustainable growth and
-            long-term success!
+            Foster a Culture of Innovation with Hubnex Tech Fund
           </p>
           <button className="bg-black text-white py-2 px-8 sm:px-10 md:px-12 rounded-md mt-4 hover:bg-purple-600 hover:border hover:border-white">
             Apply
@@ -34,51 +33,44 @@ function Strategic() {
         {/* card1 */}
         <div className="flex flex-col justify-center items-center gap-4 bg-white max-w-80 rounded-md px-4 py-12 border border-gray-200 shadow-xl">
           <img src={img2} alt="" className="rounded h-24 w-28" />
-          <h1 className="text-xl font-medium">Collaborative efforts</h1>
+          <h1 className="text-xl font-medium">Strategic Guidance</h1>
           <p className="text-[16px] text-center">
-            Startups partnering with Hubnex Invest benefit from seasoned
-            technologists and industry experts who understand cutting-edge
-            technologies and trends.
+            Startups receive tailored strategic guidance from our expert team,
+            helping them navigate challenges and seize opportunities effectively
           </p>
         </div>
 
         {/* card2 */}
         <div className="flex flex-col justify-center text-center items-center gap-4 bg-white max-w-80 rounded-md px-4 py-12 border border-gray-200 shadow-xl">
           <img src={img3} alt="" className="rounded h-24 w-28" />
-          <h1 className="text-xl font-medium">
-            Partnerships with Accelerators & Incubators
-          </h1>
+          <h1 className="text-xl font-medium">Access to Resources</h1>
           <p className="text-[16px] text-center">
-            Hubnex Invest partners with accelerators and incubators to offer
-            startups all opportunities, accelerating their growth and scaling
-            their businesses.
+            Startups receive personalized strategic guidance from our expert
+            team, helping them navigate challenges and seize opportunities
+            effectivelys
           </p>
         </div>
-      
 
-      
         {/* card3 */}
         <div className="flex flex-col justify-center text-center items-center gap-4 bg-white max-w-80 rounded-md px-4 py-12 border border-gray-200 shadow-xl">
           <img src={img4} alt="" className="rounded h-24 w-28" />
-          <h1 className="text-xl font-semibold">
-            Venture Capital Partnerships
-          </h1>
+          <h1 className="text-xl font-semibold">Mentorship</h1>
           <p className="text-[16px] text-center">
-            Hubnex Invest partners with venture capital firms to co-invest in
-            startups, providing capital and leveraging industry expertise to
-            support their growth and success.
+            Startups receive tailored strategic guidance from our expert team,
+            helping them navigate challenges and seize opportunities effectively
           </p>
         </div>
-        </div>
+      </div>
       <div className="relative max-h-full">
         <img src={banner} alt="" className="w-full" />
 
         <div className="text-center text-white py-10 absolute top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 flex flex-col gap-0 justify-center items-center">
           <h1 className="text-xl sm:text-2xl md:text-3xl xl:text-3xl font-bold px-1 md:px-0 ">
-            Join our dynamic ecosystem to accelerate your growth!
+            Unlock Your Startup's Potential with our expert Strategic Guidance
+            Today!
           </h1>
           <h2 className="text-sm sm:text-base md:text-lg px-4 md:px-0">
-            Fostering a Dynamic Network for Collaborative Growth at Hubnex
+            With Hubnex strategies strive towards productivity
           </h2>
 
           <ul className="flex flex-wrap justify-center gap-4 mt-4 sm:mt-6">
