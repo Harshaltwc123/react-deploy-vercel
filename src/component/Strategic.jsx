@@ -1,8 +1,8 @@
 import React from "react";
-import img from "../assets/StrategicGuidence.png";
-import img2 from "../assets/strategy1.jpg";
-import img3 from "../assets/strategic2.png";
-import img4 from "../assets/strategic3.png";
+import img from "../assets/stimage1.png";
+import img2 from "../assets/stimage2.png";
+import img3 from "../assets/stimage3.png";
+import img4 from "../assets/stimage4.png";
 import banner from "../assets/banner.png";
 import images1 from "../assets/images1.png";
 import images2 from "../assets/images2.png";
@@ -54,7 +54,7 @@ function Strategic() {
             their businesses.
           </p>
         </div>
-      </div>
+      
 
       
         {/* card3 */}
@@ -69,7 +69,7 @@ function Strategic() {
             support their growth and success.
           </p>
         </div>
-
+        </div>
       <div className="relative max-h-full">
         <img src={banner} alt="" className="w-full" />
 
