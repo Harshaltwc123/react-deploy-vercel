@@ -2,6 +2,9 @@ import React from "react";
 import img1 from "../assets/email2.png";
 import img2 from "../assets/phone1.png";
 import img3 from "../assets/location1.png";
+import banner from "../assets/banner.png";
+import images1 from "../assets/images1.png";
+import images2 from "../assets/images2.png";
 
 function GetInTouch() {
   const cards = [
@@ -26,11 +29,15 @@ function GetInTouch() {
 
   return (
     <>
+      {/* Top Section */}
       <div className="relative mt-14 mb-48">
-        {/* Top Section */}
         <div className="w-full h-96 flex flex-col justify-center items-center bg-gradient-to-t from-gray-300">
-          <h1 className="text-4xl font-bold">Get In Touch!</h1>
-          <p className="text-base mt-2">Ready to grow your startup faster?</p>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+            Get In Touch!
+          </h1>
+          <p className="text-sm sm:text-base mt-2">
+            Ready to grow your startup faster?
+          </p>
         </div>
 
         {/* Cards Section */}
@@ -38,27 +45,155 @@ function GetInTouch() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-white flex flex-col justify-start items-start px-6 pt-4 w-52 h-48 shadow-lg rounded-lg"
+              className="bg-white flex flex-col justify-start items-start px-6 pt-4 w-44 sm:w-52 h-44 sm:h-48 shadow-lg rounded-lg"
             >
-              <img src={card.img} alt={card.title} className="w-12 h-12 mb-4" />
-              <h1 className="text-lg font-medium mb-2">{card.title}</h1>
-              <p className="text-sm whitespace-pre-line">{card.description}</p>
+              <img src={card.img} alt={card.title} className="w-10 h-10 mb-4" />
+              <h1 className="text-base sm:text-lg font-medium mb-2">
+                {card.title}
+              </h1>
+              <p className="text-xs sm:text-sm whitespace-pre-line">
+                {card.description}
+              </p>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="flex justify-center items-center flex-col gap-16">
-        <h1 className="text-4xl font-bold">We’re here to help</h1>
-        <h4 className="text-xl">
-          {" "}
+      {/* Help Section */}
+      <div className="flex justify-center items-center flex-col gap-6 sm:gap-8 mb-16 mt-96 text-center px-4">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mt-16">
+          We’re here to help
+        </h1>
+        <h4 className="text-sm sm:text-lg md:text-xl">
           Have a question, idea, or ready to invest in your startup? Reach out.
         </h4>
+      </div>
+
+      {/* Form Section */}
+      <div className="p-4 sm:p-6">
+        <form className="max-w-2xl mx-auto">
+          {/* Input Fields */}
+          <div className="grid gap-4 mb-5 sm:grid-cols-1 md:grid-cols-2">
+            <div>
+              <input
+                type="text"
+                className="border border-gray-300 text-sm rounded-2xl block w-full py-4 pl-6"
+                placeholder="First Name"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                className="border border-gray-300 text-sm rounded-2xl block w-full py-4 pl-6"
+                placeholder="Last Name"
+              />
+            </div>
+          </div>
+          <div className="mb-5">
+            <input
+              type="email"
+              className="border border-gray-300 text-sm rounded-2xl block w-full py-4 pl-6"
+              placeholder="Email"
+            />
+          </div>
+          <div className="mb-5">
+            <input
+              type="text"
+              className="block py-4 pl-6 w-full text-sm rounded-2xl border border-gray-300"
+              placeholder="Phone Number"
+              required
+            />
+          </div>
+          <div className="mb-5">
+            <textarea
+              rows="4"
+              className="block pb-8 pt-3 pl-6 w-full text-sm rounded-2xl border border-gray-300"
+              placeholder="Message"
+            ></textarea>
+          </div>
+
+          {/* Services Section */}
+          <h1 className="mb-2 text-lg font-semibold">Services</h1>
+          <div className="grid gap-4 sm:grid-cols-1 md:grid-cols-2">
+            {/* Left Column */}
+            <div>
+              <div className="flex items-center mb-2">
+                <input type="checkbox" className="w-4 h-4" />
+                <label className="ms-2 text-sm font-medium text-gray-900">
+                  IT Strategy & Planning
+                </label>
+              </div>
+              <div className="flex items-center mb-2">
+                <input type="checkbox" className="w-4 h-4" />
+                <label className="ms-2 text-sm font-medium text-gray-900">
+                  Cloud Solutions
+                </label>
+              </div>
+              <div className="flex items-center mb-2">
+                <input type="checkbox" className="w-4 h-4" />
+                <label className="ms-2 text-sm font-medium text-gray-900">
+                  Designs
+                </label>
+              </div>
+            </div>
+            {/* Right Column */}
+            <div>
+              <div className="flex items-center mb-2">
+                <input type="checkbox" className="w-4 h-4" />
+                <label className="ms-2 text-sm font-medium text-gray-900">
+                  Application Development & Management
+                </label>
+              </div>
+              <div className="flex items-center mb-2">
+                <input type="checkbox" className="w-4 h-4" />
+                <label className="ms-2 text-sm font-medium text-gray-900">
+                  System Integration & Automation
+                </label>
+              </div>
+              <div className="flex items-center mb-2">
+                <input type="checkbox" className="w-4 h-4" />
+                <label className="ms-2 text-sm font-medium text-gray-900">
+                  Other
+                </label>
+              </div>
+            </div>
+          </div>
+
+          {/* Submit Button */}
+          <div className="text-center mt-12 mb-10">
+            <button className="bg-black text-white rounded-2xl py-3 sm:py-4 px-12 sm:px-16 text-base sm:text-xl font-bold">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+
+      {/* Banner Section */}
+      <div className="relative max-h-full">
+        <img src={banner} alt="" className="w-full object-cover" />
+
+        <div className="text-center text-white py-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col gap-4 justify-center items-center">
+          <h1 className="text-sm sm:text-lg md:text-xl xl:text-2xl font-bold px-2 sm:px-6">
+            Unleash the best opportunities to gear up your startup journey with
+            Hubnex!
+          </h1>
+
+          <ul className="flex flex-wrap justify-center gap-4 mt-4">
+            <li>
+              <img src={images1} alt="" className="h-6 sm:h-8 md:h-10" />
+            </li>
+            <li>
+              <img src={images2} alt="" className="h-6 sm:h-8 md:h-10" />
+            </li>
+          </ul>
+
+          <button className="bg-white text-black py-2 px-6 sm:px-10 md:px-14 font-bold rounded-md mt-4 hover:bg-gray-200 transition duration-300">
+            Apply
+          </button>
+        </div>
       </div>
     </>
   );
 }
 
 export default GetInTouch;
-
-
