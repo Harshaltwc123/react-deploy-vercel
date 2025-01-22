@@ -11,6 +11,7 @@ import ApplyNow from "./pages/ApplyNow";
 import Footer from "./component/Footer";
 import Strategic from "./component/Strategic";
 import Technology from "./component/Technology";
+import Investmentopportunity from "./component/Investmentopportunity";
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
     //   </Routes>
     //   <Footer />
     // </Router>
-    <Technology/>
+    <Investmentopportunity/>
  
  
   );
