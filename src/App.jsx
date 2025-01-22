@@ -12,6 +12,7 @@ import Footer from "./component/Footer";
 import Strategic from "./component/Strategic";
 import Technology from "./component/Technology";
 import Investmentopportunity from "./component/Investmentopportunity";
+import Ecosystemdevelopment from "./component/Ecosystemdevelopment";
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
     //   </Routes>
     //   <Footer />
     // </Router>
-    <Investmentopportunity/>
+    <Ecosystemdevelopment/>
  
  
   );
