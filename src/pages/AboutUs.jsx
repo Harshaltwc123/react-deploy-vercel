@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import img from "../assets/Aboutus1.png";
 import Promising from "../component/Promising";
 import Focus from "../component/Focus";
+import Collaboration from "../component/Collaboration";
 
 function AboutUs() {
   // Define the counters
@@ -85,6 +86,7 @@ function AboutUs() {
     </div>
     <Promising/>
     <Focus/>
+    <Collaboration/>
     </>
   );
 }
