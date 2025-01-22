@@ -9,30 +9,22 @@ import GetInTouch from "./pages/GetInTouch";
 import AboutUs from "./pages/AboutUs";
 import ApplyNow from "./pages/ApplyNow";
 import Footer from "./component/Footer";
-import Strategic from "./component/Strategic";
-import Technology from "./component/Technology";
-import Investmentopportunity from "./component/Investmentopportunity";
-import Ecosystemdevelopment from "./component/Ecosystemdevelopment";
-
 
 function App() {
   return (
-    // <Router>
-    //   <Navbar />
-    //   <Routes>
-    //     <Route path="/" element={<Home />} />
-    //     <Route path="/what-we-offer" element={<WhatWeOffer />} />
-    //     <Route path="/events" element={<Events />} />
-    //     <Route path="/hubnexlabs" element={<HubnexLabs />} />
-    //     <Route path="/get-in-touch" element={<GetInTouch />} />
-    //     <Route path="/about-us" element={<AboutUs />} />
-    //     <Route path="/apply-now" element={<ApplyNow />} />
-    //   </Routes>
-    //   <Footer />
-    // </Router>
-    <Ecosystemdevelopment/>
- 
- 
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/what-we-offer" element={<WhatWeOffer />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/hubnexlabs" element={<HubnexLabs />} />
+        <Route path="/get-in-touch" element={<GetInTouch />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/apply-now" element={<ApplyNow />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
