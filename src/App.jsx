@@ -10,6 +10,7 @@ import AboutUs from "./pages/AboutUs";
 import ApplyNow from "./pages/ApplyNow";
 import Footer from "./component/Footer";
 import Strategic from "./component/Strategic";
+import Technology from "./component/Technology";
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
     //   </Routes>
     //   <Footer />
     // </Router>
-    <Strategic/>
+    <Technology/>
  
  
   );
