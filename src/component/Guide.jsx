@@ -1,6 +1,7 @@
 import React from "react";
 import "../Header.css";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import { Link } from "react-router-dom"; // Import Link for navigation
 import card1 from "../assets/card1.png";
 import card2 from "../assets/card2.png";
 import card3 from "../assets/card3.png";
@@ -24,13 +25,14 @@ function Guide() {
             <p>
               Hubnex defines their vision, strategy, and roadmap for success.
             </p>
-            
-            <button className="bg-[#1B1B1B]  rounded-lg text-white flex mt-3">
-              Read More{" "}
-              <span>
-                <MdOutlineArrowOutward className="text-white w-8 h-6" />
-              </span>
-            </button>
+            <Link to="/strategic-guidance">
+              <button className="bg-[#1B1B1B] rounded-lg text-white flex mt-3">
+                Read More{" "}
+                <span>
+                  <MdOutlineArrowOutward className="text-white w-8 h-6" />
+                </span>
+              </button>
+            </Link>
           </div>
 
           {/* card2 */}
@@ -41,14 +43,16 @@ function Guide() {
             <img src={card2} alt="" className="mb-4" />
             <p>
               Hubnex provides technology enablement services to turn ideas into
-              scalable solutions
+              scalable solutions.
             </p>
-            <button className="bg-[#1B1B1B]  rounded-lg text-white flex mt-3">
-              Read More{" "}
-              <span>
-                <MdOutlineArrowOutward className="text-white w-8 h-6" />
-              </span>
-            </button>
+            <Link to="/technology-enablement">
+              <button className="bg-[#1B1B1B] rounded-lg text-white flex mt-3">
+                Read More{" "}
+                <span>
+                  <MdOutlineArrowOutward className="text-white w-8 h-6" />
+                </span>
+              </button>
+            </Link>
           </div>
 
           {/* card3 */}
@@ -61,12 +65,14 @@ function Guide() {
               Hubnex provides investment opportunities for startups with
               promising ideas and growth.
             </p>
-            <button className="bg-[#1B1B1B]  rounded-lg text-white flex mt-3">
-              Read More{" "}
-              <span>
-                <MdOutlineArrowOutward className="text-white w-8 h-6" />
-              </span>
-            </button>
+            <Link to="/investment-opportunity">
+              <button className="bg-[#1B1B1B] rounded-lg text-white flex mt-3">
+                Read More{" "}
+                <span>
+                  <MdOutlineArrowOutward className="text-white w-8 h-6" />
+                </span>
+              </button>
+            </Link>
           </div>
 
           {/* card4 */}
@@ -76,15 +82,17 @@ function Guide() {
             </h1>
             <img src={card4} alt="" className="mb-4" />
             <p>
-              Hubnex provides investment opportunities for startups with
-              promising ideas and growth.
+              Hubnex builds ecosystems for startups to thrive and grow
+              sustainably.
             </p>
-            <button className="bg-[#1B1B1B]  rounded-lg text-white flex mt-3">
-              Read More{" "}
-              <span>
-                <MdOutlineArrowOutward className="text-white w-8 h-6" />
-              </span>
-            </button>
+            <Link to="/ecosystem-development">
+              <button className="bg-[#1B1B1B] rounded-lg text-white flex mt-3">
+                Read More{" "}
+                <span>
+                  <MdOutlineArrowOutward className="text-white w-8 h-6" />
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

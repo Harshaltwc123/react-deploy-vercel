@@ -9,7 +9,11 @@ import GetInTouch from "./pages/GetInTouch";
 import AboutUs from "./pages/AboutUs";
 import ApplyNow from "./pages/ApplyNow";
 import Footer from "./component/Footer";
-// import Strategic from "./component/Strategic";
+import Strategic from "./component/Strategic";
+import Guide from "./component/Guide";
+import Technology from "./component/Technology";
+import Investmentopportunity from "./component/Investmentopportunity";
+import Ecosystemdevelopment from "./component/Ecosystemdevelopment";
 
 function App() {
   return (
@@ -23,6 +27,11 @@ function App() {
         <Route path="/get-in-touch" element={<GetInTouch />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/apply-now" element={<ApplyNow />} />
+        <Route path="/" element={<Guide />} />
+        <Route path="/strategic-guidance" element={<Strategic />} />
+        <Route path="/technology-enablement" element={<Technology />} />
+        <Route path="/investment-opportunity" element={<Investmentopportunity />} />
+        <Route path="/ecosystem-development" element={<Ecosystemdevelopment />} />
       </Routes>
       <Footer />
     </Router>
