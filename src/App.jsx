@@ -11,7 +11,6 @@ import ApplyNow from "./pages/ApplyNow";
 import Footer from "./component/Footer";
 import Strategic from "./component/Strategic";
 import Guide from "./component/Guide";
-// import StrategicGuidance from "./component/StrategicGuidance";
 import Technology from "./component/Technology";
 import InvestmentOpportunity from "./component/InvestmentOpportunity";
 import EcosystemDevelopment from "./component/EcosystemDevelopment";
@@ -45,7 +44,6 @@ function App() {
       </Routes>
       <Footer />
     </Router>
-    // <Strategic/>
   );
 }
 
