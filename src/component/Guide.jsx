@@ -24,6 +24,7 @@ function Guide() {
             <p>
               Hubnex defines their vision, strategy, and roadmap for success.
             </p>
+            
             <button className="bg-[#1B1B1B]  rounded-lg text-white flex mt-3">
               Read More{" "}
               <span>

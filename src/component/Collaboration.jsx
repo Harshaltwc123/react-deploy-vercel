@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import img from "../assets/Collaboration.png";
 import img1 from "../assets/Collabrative1.png";
 import img2 from "../assets/Collabrative2.png";
@@ -9,96 +9,103 @@ import banner from "../assets/banner.png";
 import images1 from "../assets/images1.png";
 import images2 from "../assets/images2.png";
 
+import React from 'react'
+
 function Collaboration() {
   return (
     <>
-      <div className="mb-32">
-        <h1 className="text-5xl font-bold text-center mt-28 max-w-4xl mx-auto mb-32">
-          At Hubnex Labs, innovation, collaboration, and growth Thrive!
-        </h1>
-        <img src={img} alt="" className="w-full" />
-        <p className="mt-28 px-9">
-          At hubnex invest our values are more than just words—they’re the
-          foundation of everything we do. They guide our decisions, inspire our
-          actions, and unite us as a team.Our team is our greatest asset. Get to
-          know the people who make Hubnexlabs a dynamic and inspiring place to
-          work. From our seasoned leaders to our newest hires, each team member
-          brings unique skills and perspectives to the table .We believe that
-          diversity drives innovation. At Hubnexlabs, we are committed to
-          creating an inclusive environment where everyone feels valued and
-          empowered.
-        </p>
-      </div>
-
-      <div>
-        <h1 className="text-5xl font-bold text-center">
+    <div className="mb-32">
+         <h1 className="text-5xl font-bold text-center mt-28 max-w-4xl mx-auto mb-32">
+           At Hubnex Labs, innovation, collaboration, and growth Thrive!
+         </h1>
+         <img src={img} alt="" className="w-full" />
+         <p className="mt-28 px-9">
+           At hubnex invest our values are more than just words—they’re the
+           foundation of everything we do. They guide our decisions, inspire our
+           actions, and unite us as a team.Our team is our greatest asset. Get to
+           know the people who make Hubnexlabs a dynamic and inspiring place to
+           work. From our seasoned leaders to our newest hires, each team member
+           brings unique skills and perspectives to the table .We believe that
+           diversity drives innovation. At Hubnexlabs, we are committed to
+           creating an inclusive environment where everyone feels valued and
+           empowered.
+         </p>
+       </div>
+       <div>
+       <h1 className="text-5xl font-bold text-center">
           Collaborative Hubnex’s Success
-        </h1>
-        {/* card1 */}
-        <div className="flex flex-wrap justify-center my-8 gap-4">
-          <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
-            <img src={img1} alt="" />
-            <h1 className="text-xl font-medium">Tech Innovations</h1>
-            <p>
-              With the support of Hubnex Invest's technology enablement
-              services, this startup, specializing in cutting-edge AI solutions,
-              overcame scaling challenges, optimized their product architecture,
-              and expanded their customer base, resulting in a 200% revenue
-              increase within the first year.
-            </p>
-          </div>
-          {/* card2 */}
-          <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
-            <img src={img2} alt="" />
-            <h1 className="text-xl font-medium">Health Tech Solutions</h1>
-            <p>
-              HealthTech Solutions, striving to revolutionize healthcare with
-              their digital health platform, overcame resource and expertise
-              limitations through Hubnex Tech Fund's support, gaining
-              mentorship, specialized resources, and funding that accelerated
-              their growth
-            </p>
-          </div>
-          {/* card3 */}
-          <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
-            <img src={img3} alt="" />
-            <h1 className="text-xl font-medium">Eco Tech Innovations</h1>
-            <p>
-              EcoTech Innovations, a startup dedicated to sustainable
-              technologies, overcame challenges in securing government grants
-              with Hubnex Tech Fund's guidance, which helped them identify
-              opportunities, prepare applications, and meet funding
-              requirements.
-            </p>
-          </div>
-          {/* card4 */}
-          <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
-            <img src={img4} alt="" />
-            <h1 className="text-xl font-medium">Fintech Solutions Ltd</h1>
-            <p>
-              With Hubnex Tech Fund's assistance, EcoTech Innovations, a startup
-              focused on sustainable technologies, successfully navigated the
-              complex process of accessing government grants by receiving
-              guidance in identifying opportunities, preparing applications, and
-              meeting funding requirements.
-            </p>
-          </div>
+         </h1>
+         {/* card1 */}
+         <div className="flex flex-wrap justify-center my-8 gap-4">
+           <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
+             <img src={img1} alt="" />
+             <h1 className="text-xl font-medium">Tech Innovations</h1>
+             <p>
+               With the support of Hubnex Invest's technology enablement
+               services, this startup, specializing in cutting-edge AI solutions,
+               overcame scaling challenges, optimized their product architecture,
+               and expanded their customer base, resulting in a 200% revenue
+               increase within the first year.
+             </p>
+           </div>
+          
+           {/* card2 */}
+       
+           <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
+             <img src={img2} alt="" />
+             <h1 className="text-xl font-medium">Tech Innovations</h1>
+             <p>
+               With the support of Hubnex Invest's technology enablement
+               services, this startup, specializing in cutting-edge AI solutions,
+               overcame scaling challenges, optimized their product architecture,
+               and expanded their customer base, resulting in a 200% revenue
+               increase within the first year.
+             </p>
+           </div>
+          
+           {/* card3 */}
+         
+           <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
+             <img src={img3} alt="" />
+             <h1 className="text-xl font-medium">Tech Innovations</h1>
+             <p>
+               With the support of Hubnex Invest's technology enablement
+               services, this startup, specializing in cutting-edge AI solutions,
+               overcame scaling challenges, optimized their product architecture,
+               and expanded their customer base, resulting in a 200% revenue
+               increase within the first year.
+             </p>
+           </div>
+          
+           {/* card4 */}
+           <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
+             <img src={img4} alt="" />
+             <h1 className="text-xl font-medium">Tech Innovations</h1>
+             <p>
+               With the support of Hubnex Invest's technology enablement
+               services, this startup, specializing in cutting-edge AI solutions,
+               overcame scaling challenges, optimized their product architecture,
+               and expanded their customer base, resulting in a 200% revenue
+               increase within the first year.
+             </p>
+           </div>
           {/* card5 */}
-          <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
-            <img src={img5} alt="" />
-            <h1 className="text-xl font-medium">Edtech Innovate</h1>
-            <p>
-              With Hubnex Tech Fund's support, EdTech Innovate overcame
-              challenges in scaling their platform and attracting investors by
-              receiving strategic guidance on market positioning, business model
-              refinement, and investor pitching, leading to successful seed
-              funding, user base expansion, and significant growth.
-            </p>
-          </div>
-        </div>
-      </div>
+           <div className="bg-white my-6 px-8 gap-4 py-8 flex items-start flex-col max-w-64 mx-auto text-[12px] border-black  rounded-lg shadow-2xl ">
+             <img src={img5} alt="" />
+             <h1 className="text-xl font-medium">Tech Innovations</h1>
+             <p>
+               With the support of Hubnex Invest's technology enablement
+               services, this startup, specializing in cutting-edge AI solutions,
+               overcame scaling challenges, optimized their product architecture,
+               and expanded their customer base, resulting in a 200% revenue
+               increase within the first year.
+             </p>
+           </div>
+       </div>
+       </div>
 
-      <div className="relative max-h-full">
+
+       <div className="relative max-h-full">
         <img src={banner} alt="" className="w-full" />
 
         <div className="text-center text-white py-10 absolute top-1/2 left-1/2  transform -translate-x-1/2 -translate-y-1/2 flex flex-col gap-0 justify-center items-center">
@@ -121,8 +128,10 @@ function Collaboration() {
           </button>
         </div>
       </div>
+
+       
     </>
-  );
+  )
 }
 
-export default Collaboration;
+export default Collaboration

@@ -9,6 +9,7 @@ import GetInTouch from "./pages/GetInTouch";
 import AboutUs from "./pages/AboutUs";
 import ApplyNow from "./pages/ApplyNow";
 import Footer from "./component/Footer";
+import Strategic from "./component/Strategic";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       </Routes>
       <Footer />
     </Router>
+    // <Strategic/>
   );
 }
 
