@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../assets/WhatWeOffer.png";
-import Fund from "../component/Fund";
+
 
 function WhatWeOffer() {
   return (
@@ -27,7 +27,7 @@ function WhatWeOffer() {
           </p>
         </div>
       </div>
-      <Fund/>
+      
     </>
   );
 }
