@@ -9,10 +9,10 @@ import GetInTouch from "./pages/GetInTouch";
 import AboutUs from "./pages/AboutUs";
 import ApplyNow from "./pages/ApplyNow";
 import Footer from "./component/Footer";
-// import Strategic from "./component/Strategic";
+import Strategic from "./component/Strategic";
 import Guide from "./component/Guide";
-import StrategicGuidance from "./component/StrategicGuidance";
-import TechnologyEnablement from "./component/TechnologyEnablement";
+// import StrategicGuidance from "./component/StrategicGuidance";
+import Technology from "./component/Technology";
 import InvestmentOpportunity from "./component/InvestmentOpportunity";
 import EcosystemDevelopment from "./component/EcosystemDevelopment";
 
@@ -29,10 +29,10 @@ function App() {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/apply-now" element={<ApplyNow />} />
         <Route path="/" element={<Guide />} />
-        <Route path="/strategic-guidance" element={<StrategicGuidance />} />
+        <Route path="/strategic-guidance" element={<Strategic />} />
         <Route
           path="/technology-enablement"
-          element={<TechnologyEnablement />}
+          element={<Technology />}
         />
         <Route
           path="/investment-opportunity"
