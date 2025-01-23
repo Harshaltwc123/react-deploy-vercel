@@ -1,13 +1,13 @@
 import React from "react";
 import Fund from "../component/Fund";
-// import img from "../assets/WhatWeOffer.png";
+import img from "../assets/Fund4.png";
 
 function WhatWeOffer() {
   return (
     <>
       <div className="flex flex-col justify-center items-center relative">
         <img
-          src=""
+          src={img}
           className="w-full h-auto object-cover"
           alt="What We Offer"
         />
