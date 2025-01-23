@@ -5,9 +5,9 @@ import Fund from "../component/Fund";
 function WhatWeOffer() {
   return (
     <>
-      {/* <div className="flex flex-col justify-center items-center relative">
+      <div className="flex flex-col justify-center items-center relative">
         <img
-          src={img}
+          src=""
           className="w-full h-auto object-cover"
           alt="What We Offer"
         />
@@ -22,7 +22,7 @@ function WhatWeOffer() {
             accelerate growth
           </p>
         </div>
-      </div> */}
+      </div>
       <div>
         <Fund/>
       </div>
