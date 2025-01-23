@@ -1,6 +1,7 @@
 import React from "react";
 import Fund from "../component/Fund";
 import img from "../assets/Fund4.png";
+import Animated from "../component/Animated";
 
 function WhatWeOffer() {
   return (
@@ -25,6 +26,7 @@ function WhatWeOffer() {
       </div>
       <div>
         <Fund/>
+        <Animated/>
       </div>
     </>
   );
