@@ -18,7 +18,7 @@ function Home() {
       <Unleash />
       <Implements />
       <Faq />
-      <Landing />
+      {/* <Landing /> */}
     </div>
   );
 }

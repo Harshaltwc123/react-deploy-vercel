@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       screens:{
-       tablet:"200px",
+       miniphone:"200px",
       },
     },
   },

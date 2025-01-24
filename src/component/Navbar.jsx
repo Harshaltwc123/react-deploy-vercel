@@ -1,11 +1,16 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa"; // Icons
 import logo from "../assets/logo.png";
 import "../Header.css";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  console.log(location.pathname);
+
+
+  
 
   return (
     <div className="flex items-center justify-between px-2 py-3 sm:px-6 md:px-6 lg:px-10 xl:px-10 2xl:px-14 bg-white shadow-md fixed top-0 left-0 right-0 z-50">
@@ -19,24 +24,24 @@ function Navbar() {
       </div>
 
      
-      <ul className="hidden md:flex md:gap-3 font-[Poppins] text-sm lg:text-base md:items-center">
-        <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-          <Link to="/">Home</Link>
+      <ul className="hidden md:flex md:gap-3 font-[Poppins] text-sm lg:text-base md:items-center" >
+        <li className="hover:font-medium  cursor-pointer flex items-center gap-1">
+          <Link className={`${location.pathname === '/' && "font-bold"}`} to="/">Home</Link>
+        </li>
+        <li className="hover:font-medium  cursor-pointer flex items-center gap-1">
+          <Link className={`${location.pathname === '/what-we-offer' && "font-bold"}`} to="/what-we-offer">What we offer?</Link>
         </li>
         <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-          <Link to="/what-we-offer">What we offer?</Link>
+          <Link className={`${location.pathname === '/events' && "font-bold"}`} to="/events">Events</Link>
         </li>
         <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-          <Link to="/events">Events</Link>
+          <Link className={`${location.pathname === '/hubnexlabs' && "font-bold"}`} to="/hubnexlabs">HubnexLabs</Link>
         </li>
         <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-          <Link to="/hubnexlabs">HubnexLabs</Link>
+          <Link className={`${location.pathname === '/get-in-touch' && "font-bold"}`} to="/get-in-touch">Get in Touch</Link>
         </li>
         <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-          <Link to="/get-in-touch">Get in Touch</Link>
-        </li>
-        <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-          <Link to="/about-us">About Us</Link>
+          <Link className={`${location.pathname === '/about-us' && "font-bold"}`} to="/about-us">About Us</Link>
         </li>
       </ul>
 
@@ -61,25 +66,25 @@ function Navbar() {
         <div className="absolute top-16 left-0 w-full bg-white shadow-lg md:hidden z-50">
           <ul className="flex flex-col gap-4 px-6 py-4 font-[Poppins] text-gray-800">
             <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-              <Link to="/">Home</Link>
+              <Link className={`${location.pathname === '/' && "font-bold"}`} to="/">Home</Link>
             </li>
             <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-              <Link to="/what-we-offer">What we offer?</Link>
+              <Link className={`${location.pathname === '/what-we-offer' && "font-bold"}`} to="/what-we-offer">What we offer?</Link>
             </li>
             <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-              <Link to="/events">Events</Link>
+              <Link className={`${location.pathname === '/events' && "font-bold"}`} to="/events">Events</Link>
             </li>
             <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-              <Link to="/hubnexlabs">HubnexLabs</Link>
+              <Link className={`${location.pathname === '/hubnexlabs' && "font-bold"}`} to="/hubnexlabs">HubnexLabs</Link>
             </li>
             <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-              <Link to="/get-in-touch">Get in Touch</Link>
+              <Link className={`${location.pathname === '/get-in-touch' && "font-bold"}`} to="/get-in-touch">Get in Touch</Link>
             </li>
             <li className="hover:font-medium cursor-pointer flex items-center gap-1">
-              <Link to="/about-us">About Us</Link>
+              <Link className={`${location.pathname === '/about-us' && "font-bold"}`} to="/about-us">About Us</Link>
             </li>
             <button className="py-2 px-4 rounded bg-black text-white text-sm">
-              <Link to="/apply-now">Apply Now</Link>
+              <Link className={`${location.pathname === '/apply-now' && "font-bold"}`} to="/apply-now">Apply Now</Link>
             </button>
           </ul>
         </div>
