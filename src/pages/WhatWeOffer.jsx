@@ -2,6 +2,7 @@ import React from "react";
 import Fund from "../component/Fund";
 import img from "../assets/Fund4.png";
 import Animated from "../component/Animated";
+import Cards from "../component/Cards";
 
 function WhatWeOffer() {
   return (
@@ -27,6 +28,7 @@ function WhatWeOffer() {
       <div>
         <Fund/>
         <Animated/>
+        <Cards/>
       </div>
     </>
   );
