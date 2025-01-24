@@ -18,7 +18,7 @@ function Animated() {
         <div className="absolute z-10 ">
         {/* card1 */}
         <div className="flex justify-evenly items-center flex-wrap">
-          <div className=" w-52 gap-2 p-4 border bg-white border-gray-200 shadow-xl rounded-md">
+          <div className=" w-52 gap-2 p-4 border bg-blue-50 border-gray-200 shadow-xl rounded-md">
             <h1 className="font-bold text-start pb-4">
               Workshops and Training
             </h1>
@@ -27,7 +27,7 @@ function Animated() {
               efficiently.
             </p>
           </div>
-          <div className="w-52 gap-2 p-4 border bg-white border-gray-200 shadow-xl rounded-md">
+          <div className="w-52 gap-2 p-4 border bg-blue-50 border-gray-200 shadow-xl rounded-md">
             <h1 className="font-bold text-start pb-4">
               Growth Hacking and Marketing
             </h1>
@@ -39,7 +39,7 @@ function Animated() {
         </div>
         {/* card2 */}
         <div className="flex justify-around gap-96 my-36 items-center flex-wrap">
-          <div className=" w-52 gap-2 p-4 border bg-white border-gray-200 shadow-xl rounded-md">
+          <div className=" w-52 gap-2 p-4 border bg-blue-50 border-gray-200 shadow-xl rounded-md">
             <h1 className="font-bold text-start pb-4">
               Networking and Community
             </h1>
@@ -48,7 +48,7 @@ function Animated() {
               opening opportunities.
             </p>
           </div>
-          <div className="w-52 gap-2 p-4 border bg-white border-gray-200 shadow-xl rounded-md py-9">
+          <div className="w-52 gap-2 p-4 border bg-blue-50 border-gray-200 shadow-xl rounded-md py-9">
             <h1 className="font-bold text-start pb-4">Continuous Support</h1>
             <p className="text-sm text-start">
               Our support continues beyond funding, helping you scale, pivot,
@@ -58,7 +58,7 @@ function Animated() {
         </div>
         {/* card3 */}
         <div className="flex justify-evenly items-center flex-wrap">
-          <div className=" w-52 gap-2 p-4 border bg-white border-gray-200 shadow-xl rounded-md">
+          <div className=" w-52 gap-2 p-4 border bg-blue-50 border-gray-200 shadow-xl rounded-md">
             <h1 className="font-bold text-start pb-4">
               Legal and Administartive Support
             </h1>
@@ -67,7 +67,7 @@ function Animated() {
               protected.
             </p>
           </div>
-          <div className="w-52 gap-2 p-4 border bg-white border-gray-200 shadow-xl rounded-md py-7">
+          <div className="w-52 gap-2 p-4 border bg-blue-50 border-gray-200 shadow-xl rounded-md py-7">
             <h1 className="font-bold text-start pb-4">
               Investment and Funding
             </h1>
